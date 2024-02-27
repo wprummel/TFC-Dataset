@@ -1,3 +1,5 @@
+The TFC dataset is generated to train a Mask-RCNN backbone. The corresponding manuscript is under revision, and the current version of this repository contains only representative images. The complete dataset will be made available after acceptance of the manuscript.  
+
 The images that constitute the dataset come from:
 
 * @book{fisher2016fish4knowledge,

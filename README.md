@@ -1,6 +1,10 @@
-The TFC dataset is generated to train a Mask-RCNN backbone. The corresponding manuscript is under revision, and the current version of this repository contains only representative images. The complete dataset will be made available after acceptance of the manuscript.  
+The TFC dataset is generated to train a ResNet-50 backbone, with the aim to correctly classify fish from other animals. 
 
-The images that constitute the dataset come from:
+The dataset contains one train and one test folder, each composed of two sub-folders, named "other_animals" and "teleost_fishes".
+
+The corresponding manuscript is under revision, and the current version of this repository contains only representative images. The complete dataset will be made available after acceptance of the manuscript.  
+
+The images that constitute the dataset regarding fish images come from:
 
 * @book{fisher2016fish4knowledge,
   title="{Fish4Knowledge: collecting and analyzing massive coral reef fish video data}",
@@ -26,3 +30,9 @@ The images that constitute the dataset come from:
   year={2020},
   organization={IEEE}
 }
+
+The images that constitute the dataset regarding images of other animals come from the following Kaggle datasets:
+
+* Zoo Animal Classification: https://www.kaggle.com/datasets/uciml/zoo-animal-classification,
+* Animals: https://www.kaggle.com/datasets/antobenedetti/animals,
+* Aquarium Dataset: https://www.kaggle.com/datasets/sharansmenon/aquarium-dataset
